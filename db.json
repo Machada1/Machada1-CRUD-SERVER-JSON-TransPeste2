@@ -1,0 +1,146 @@
+{
+  "responsaveis": [
+    {
+      "id": 1,
+      "nome": "Klebão",
+      "sobrenome": "Da Massa",
+      "cpf": "11122233344",
+      "endereco": "Rua dos testes",
+      "nascimento": "29/09/1985",
+      "telefone": "31999999988",
+      "email": "teste@teste.com",
+      "senha": "123456ab"
+    },
+    {
+      "id": 2,
+      "nome": "Fabio",
+      "sobrenome": "Jr",
+      "cpf": "22233344455",
+      "endereco": "Rua dos testes",
+      "nascimento": "29/09/1975",
+      "telefone": "31999999988",
+      "email": "teste2@teste.com",
+      "senha": "123456ab"
+    }
+
+  ],
+  "criancas": [
+    {
+      "id": 1,
+      "nome": "Klebinho",
+      "cpf": "11111111111",
+      "telefone": "31999999999",
+      "data_nascimento": "29/09/20014",
+      "nome_escola": "CEFET",
+      "endereco_escola": "Rua do Santo Agostinho",
+      "avalicao":4.5,
+      "responsaveisid": 1
+    },
+    {
+      "id": 2,
+      "nome": "Fabinho",
+      "cpf": "11111111111",
+      "telefone": "31999999999",
+      "data_nascimento": "29/09/20014",
+      "nome_escola": "Santo Agostinho",
+      "endereco_escola": "Rua do Santo Agostinho",
+      "avalicao":4.5,
+      "responsaveisid": 2
+    }
+  ],
+  "motoristas": [
+    {
+      "id": 1,
+      "nome": "Rogerinho",
+      "sobrenome": "da Van",
+      "cpf": "11122233346",
+      "endereco": "Rua dos testes",
+      "nascimento": "29/09/1985",
+      "cnh":"111222333456",
+      "cnhvenc":"29/09/2024",
+      "telefone": "31999999999",
+      "email": "van@teste.com",
+      "senha": "123456ab"
+    },
+    {
+      "id": 2,
+      "nome": "Julhinho",
+      "sobrenome": "da Van",   
+      "cpf": "11122233345",
+      "endereco": "Rua dos testes",
+      "nascimento": "29/09/1985",
+      "cnh":"111222333456",
+      "cnhvenc":"29/11/2024",
+      "telefone": "31999999999",
+      "email": "van2@teste.com",
+      "senha": "123456ab"
+    },
+
+    {
+      "id": 3,
+      "nome": "Renanzinho",
+      "sobrenome": "da Van",   
+      "cpf": "11122233348",
+      "endereco": "Rua dos testes",
+      "nascimento": "29/09/1985",
+      "cnh":"111222333756",
+      "cnhvenc":"29/11/2024",
+      "telefone": "31999999999",
+      "email": "van3@teste.com",
+      "senha": "123456ab"
+    }
+  ],
+  "veiculos": [
+    {
+      "id": 1,
+      "modelo": "Ducato",
+      "marca": "Fiat",
+      "placa": "BRA1R123",
+      "ano": "2014",
+      "assentos": 16,
+      "renavam": "15614894189165165856223",
+      "chassi": "56af1sa32fg1agas1g56as16",
+      "motoristasid": 1
+    }
+  ],
+    "rotas": [
+    {
+      "id": 1,
+      "escola": "CEFET",
+      "motoristasid": 1
+    },
+    {
+      "id": 2,
+      "escola": "CEFET",
+      "motoristasid": 2
+    },
+    {
+      "id": 3,
+      "escola": "Santo Agostinho",
+      "motoristasid": 3
+    }
+  ],
+  "solicitacao": [
+    {
+      "id": 1,
+      "escola": "CEFET",
+      "solicitante": 1,
+      "crianca": 1,     
+      "avaliacao": 4.5,
+      "partida":"Rua dos bobos, nº0",
+      "motoristasid":2
+
+    }
+  ],
+
+  "ocupacao": [
+    {
+      "id": 1,
+      "veiculoid":1,
+      "criancas": 1,
+      "responsavel":1
+    }
+
+  ]
+  
+}
